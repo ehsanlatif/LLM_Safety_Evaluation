@@ -1,0 +1,16 @@
+# Dataset download (download_datasets.py)
+huggingface_hub
+requests
+
+# API models: opus-4.8, sonnet-5 (Anthropic) and gpt-5.5 (OpenAI)
+anthropic
+openai
+
+# Local open-weight models & LlamaGuard-2 annotator (run_benchmarks.py, eval_ailuminate.py)
+transformers
+torch
+accelerate
+sentencepiece
+
+# Official SORRY-Bench fine-tuned judge (eval_sorrybench.py)
+vllm

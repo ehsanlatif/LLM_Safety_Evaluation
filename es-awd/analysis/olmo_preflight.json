@@ -1,0 +1,158 @@
+{
+  "olmo3-7b-base": {
+    "hf_id": "allenai/Olmo-3-1025-7B",
+    "configured_template": "raw",
+    "max_new_tokens": 1024,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": false,
+    "resolved_template": "raw",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-instruct-sft": {
+    "hf_id": "allenai/Olmo-3-7B-Instruct-SFT",
+    "configured_template": "chat",
+    "max_new_tokens": 1024,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-instruct-dpo": {
+    "hf_id": "allenai/Olmo-3-7B-Instruct-DPO",
+    "configured_template": "chat",
+    "max_new_tokens": 1024,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-instruct": {
+    "hf_id": "allenai/Olmo-3-7B-Instruct",
+    "configured_template": "chat",
+    "max_new_tokens": 1024,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-think-sft": {
+    "hf_id": "allenai/Olmo-3-7B-Think-SFT",
+    "configured_template": "think",
+    "max_new_tokens": 12000,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "think",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-think-dpo": {
+    "hf_id": "allenai/Olmo-3-7B-Think-DPO",
+    "configured_template": "think",
+    "max_new_tokens": 12000,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "think",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-think-rl": {
+    "hf_id": "allenai/Olmo-3-7B-Think",
+    "configured_template": "think",
+    "max_new_tokens": 12000,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "think",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-rlzero-math": {
+    "hf_id": "allenai/Olmo-3-7B-RL-Zero-Math",
+    "configured_template": "chat",
+    "max_new_tokens": 4096,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-rlzero-code": {
+    "hf_id": "allenai/Olmo-3-7B-RL-Zero-Code",
+    "configured_template": "chat",
+    "max_new_tokens": 4096,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-rlzero-if": {
+    "hf_id": "allenai/Olmo-3-7B-RL-Zero-IF",
+    "configured_template": "chat",
+    "max_new_tokens": 4096,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-rlzero-general": {
+    "hf_id": "allenai/Olmo-3-7B-RL-Zero-General",
+    "configured_template": "chat",
+    "max_new_tokens": 4096,
+    "architectures": [
+      "Olmo3ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": true,
+    "ok": true
+  },
+  "olmo3-7b-rlzero-mix": {
+    "hf_id": "allenai/Olmo-3-7B-RL-Zero-Mix",
+    "configured_template": "chat",
+    "max_new_tokens": 4096,
+    "architectures": [
+      "Olmo2RetrofitForCausalLM"
+    ],
+    "has_chat_template": true,
+    "resolved_template": "chat",
+    "max_position_embeddings": 65536,
+    "is_olmo3": false,
+    "ok": true
+  }
+}

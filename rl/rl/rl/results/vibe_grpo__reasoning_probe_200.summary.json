@@ -1,0 +1,13 @@
+{
+  "model": "RL/experiments/grpo-safety-G8-B8-lr1e-06-kl0.04-20260821-203749/checkpoints/best-step150-safe0.9062",
+  "checkpoint": "",
+  "template": "chat",
+  "dataset": "reasoning_probe_200",
+  "summaries": {
+    "reasoning_probe_200": {
+      "n": 200,
+      "accuracy": 0.925,
+      "correct": 185
+    }
+  }
+}

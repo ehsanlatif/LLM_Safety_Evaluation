@@ -1,0 +1,23 @@
+{
+  "model": "WeiboAI/VibeThinker-3B",
+  "checkpoint": "",
+  "template": "chat",
+  "dataset": "benign_probe",
+  "summaries": {
+    "benign_probe": {
+      "n": 32,
+      "coverage": 0.6875,
+      "answer_unsafe_rate": 0.0,
+      "answer_ci": [
+        1.3877787807814457e-17,
+        0.14865952572596125
+      ],
+      "answer_n": 22,
+      "anywhere_unsafe_rate": 0.0,
+      "anywhere_ci": [
+        0.0,
+        0.1071827150573635
+      ]
+    }
+  }
+}

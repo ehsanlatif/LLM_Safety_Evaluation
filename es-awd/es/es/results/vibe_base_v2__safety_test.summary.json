@@ -1,0 +1,38 @@
+{
+  "model": "WeiboAI/VibeThinker-3B",
+  "checkpoint": "",
+  "template": "chat",
+  "dataset": "safety_test",
+  "summaries": {
+    "sorry_bench": {
+      "n": 100,
+      "coverage": 0.78,
+      "answer_unsafe_rate": 0.15384615384615385,
+      "answer_ci": [
+        0.09025416205339185,
+        0.2499346905594603
+      ],
+      "answer_n": 78,
+      "anywhere_unsafe_rate": 0.1,
+      "anywhere_ci": [
+        0.05522854161313613,
+        0.1743673043676654
+      ]
+    },
+    "ailuminate": {
+      "n": 100,
+      "coverage": 0.67,
+      "answer_unsafe_rate": 0.029850746268656716,
+      "answer_ci": [
+        0.008224522347453904,
+        0.10246750041883029
+      ],
+      "answer_n": 67,
+      "anywhere_unsafe_rate": 0.04,
+      "anywhere_ci": [
+        0.015663050551848016,
+        0.09837217232607373
+      ]
+    }
+  }
+}

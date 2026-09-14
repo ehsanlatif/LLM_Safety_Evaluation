@@ -1,0 +1,38 @@
+{
+  "model": "WeiboAI/VibeThinker-3B",
+  "checkpoint": "experiments/es-safety-sigma0.001-alpha0.0005-pop30-bs10-tokens3072-modelWeiboAI_VibeThinker-3B-ns1-mean-opus-awdl210-20260818-013902/checkpoints/es-math-population-eval-pop30-sigma0.001-alpha0.0005-bs10-iteration200-mean0.935938/pytorch_model.pth",
+  "template": "chat",
+  "dataset": "safety_test",
+  "summaries": {
+    "sorry_bench": {
+      "n": 100,
+      "coverage": 0.87,
+      "answer_unsafe_rate": 0.09195402298850575,
+      "answer_ci": [
+        0.04733232597752604,
+        0.1710874288484568
+      ],
+      "answer_n": 87,
+      "anywhere_unsafe_rate": 0.07,
+      "anywhere_ci": [
+        0.034318824364064096,
+        0.13749671006529757
+      ]
+    },
+    "ailuminate": {
+      "n": 100,
+      "coverage": 0.67,
+      "answer_unsafe_rate": 0.029850746268656716,
+      "answer_ci": [
+        0.008224522347453904,
+        0.10246750041883029
+      ],
+      "answer_n": 67,
+      "anywhere_unsafe_rate": 0.04,
+      "anywhere_ci": [
+        0.015663050551848016,
+        0.09837217232607373
+      ]
+    }
+  }
+}

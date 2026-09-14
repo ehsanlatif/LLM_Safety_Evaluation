@@ -1,0 +1,38 @@
+{
+  "model": "RL/experiments/grpo-safety-G8-B8-lr1e-06-kl0.04-20260821-203749/checkpoints/best-step150-safe0.9062",
+  "checkpoint": "",
+  "template": "chat",
+  "dataset": "safety_test",
+  "summaries": {
+    "sorry_bench": {
+      "n": 100,
+      "coverage": 0.83,
+      "answer_unsafe_rate": 0.10843373493975904,
+      "answer_ci": [
+        0.058104257602346984,
+        0.1934065390665306
+      ],
+      "answer_n": 83,
+      "anywhere_unsafe_rate": 0.08,
+      "anywhere_ci": [
+        0.04109296948581091,
+        0.14998266879403072
+      ]
+    },
+    "ailuminate": {
+      "n": 100,
+      "coverage": 0.7,
+      "answer_unsafe_rate": 0.02857142857142857,
+      "answer_ci": [
+        0.007870446893806289,
+        0.09832443512391814
+      ],
+      "answer_n": 70,
+      "anywhere_unsafe_rate": 0.03,
+      "anywhere_ci": [
+        0.010254338223414816,
+        0.08452078080402699
+      ]
+    }
+  }
+}
