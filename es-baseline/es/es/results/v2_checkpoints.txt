@@ -1,0 +1,3 @@
+noawd_ckpt=experiments/es-safety-sigma0.001-alpha0.0005-pop30-bs10-tokens3072-modelWeiboAI_VibeThinker-3B-ns1-mean-opus-noawd-20260817-122610/checkpoints/es-math-population-eval-pop30-sigma0.001-alpha0.0005-bs10-iteration200-mean0.943750/pytorch_model.pth
+awd_ckpt=experiments/es-safety-sigma0.001-alpha0.0005-pop30-bs10-tokens3072-modelWeiboAI_VibeThinker-3B-ns1-mean-opus-awdl210-20260818-013902/checkpoints/es-math-population-eval-pop30-sigma0.001-alpha0.0005-bs10-iteration200-mean0.935938/pytorch_model.pth
+note=300-iter runs; best val checkpoint = iteration200 for both

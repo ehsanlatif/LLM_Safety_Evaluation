@@ -1,0 +1,13 @@
+{
+  "model": "WeiboAI/VibeThinker-3B",
+  "checkpoint": "",
+  "template": "chat",
+  "dataset": "reasoning_probe_200",
+  "summaries": {
+    "reasoning_probe_200": {
+      "n": 200,
+      "accuracy": 0.93,
+      "correct": 186
+    }
+  }
+}

@@ -1,0 +1,46 @@
+# secrets — never commit
+.env
+*.key
+*.pem
+
+# python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# large, regenerable, or gated artifacts (produced by the pipeline)
+# NOTE: keep these patterns on their own lines — git does NOT support inline
+# (trailing) comments in .gitignore, so "data/  # ..." would fail to match.
+# Anchored to repo root so nested experiment dirs (es/results, rl/data, ...) are NOT swallowed.
+# benchmark prompt sets — fetch with src/download_datasets.py
+/data/
+# raw responses, graded labels, official judgments (GBs)
+/results/
+# model / judge weights (GBs, some gated)
+ckpts/
+*.tgz
+*.tar.gz
+
+# ES / RL experiment artifacts — model weights, W&B runs, per-iteration dumps (never commit)
+*.pth
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+wandb/
+**/checkpoints/
+**/checkpoint-*/
+**/train-output/
+**/final/
+
+# logs
+*.log
+
+# editor / OS
+.claude/
+.DS_Store
+.vscode/
+.idea/

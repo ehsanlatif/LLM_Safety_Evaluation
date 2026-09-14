@@ -1,0 +1,5 @@
+vllm==0.11.0
+wandb
+math-verify
+pylatexenc
+latex2sympy2_extended
